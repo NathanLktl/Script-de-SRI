@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 backup_files="/home /nathan/Downloads"
 
