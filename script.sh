@@ -2,19 +2,19 @@
 
 backup_files="/home /nathan/Downloads"
 
-dest="/home/nathan/Backups"
+destino="/home/nathan/Backups"
 
 
 dia=$(date +%A)
 backup=$(backup -s)
 archive_file="$backup-$dia.tgz"
 
-echo "Fazendo Backup  $backup_files to $dest/$archive_file"
+echo "Fazendo Backup  $backup_files to $destino/$archive_file"
 date
 echo
 
 
-tar czf $dest/$archive_file $backup_files
+tar czf $destino/$archive_file $backup_files
 
 echo
 echo "Backup finalizado"
