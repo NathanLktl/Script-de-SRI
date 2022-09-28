@@ -1,0 +1,2 @@
+0 5 * * 1 tar -zcf /user/downloads/home/root/script.sh
+
